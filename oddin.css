@@ -1,0 +1,54 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.firstpage{
+    display: flex;
+    justify-content: left;
+
+    background-image: url(./image\ \(2\).webp);
+    width: 100vw;
+    height:100vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 1000vw;
+    height: 100px;
+    
+}
+.img1{
+    width: 100px;
+}
+.img2{
+    width: 800px;
+    height: 500px;
+    align-items: end;
+}
+.one,.two,.three{
+    text-transform: uppercase;
+    color: rgb(244, 235, 235);
+    background-color: black;
+    width: 250px;
+    height: 80px; 
+}
+.four{
+    background-color: black;
+    color: white;
+    justify-content: right;
+}
+option:hover{
+    color: yellow;
+}
+a{
+    width: 200px;
+    height: 80px;
+    color: white;
+    background-color: black;
+}
+h4{
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: solid;
+}
