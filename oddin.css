@@ -3,52 +3,224 @@ body{
     margin: 0px;
 }
 .firstpage{
-    display: flex;
-    justify-content: left;
-
+    /* display: flex;
+    justify-content: space-around; */
     background-image: url(./image\ \(2\).webp);
     width: 100vw;
     height:100vh;
 }
 .nav{
     display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-    width: 1000vw;
+    justify-content: left;
+    gap: 30px;
+    align-items: center;
+    width: 100vw;
+    height: 100px; 
+    border: none;
+    outline: none;
+
+ } 
+ .bar{
+    color: rgb(205, 205, 0);
+ }
+.left{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    width: 100vw;
     height: 100px;
+    border: none;
+    outline: none;
     
+}
+
+.one,.two,.three{
+    display: flex;
+    justify-content: left;
+    text-transform: uppercase;
+    color: rgb(244, 235, 235);
+    background-color: black;
+    width: 200px;
+    height: 50; 
+    gap: 20px;
+}
+.one{
+    border: none;
+    outline: none;
+}
+
+.one:hover{
+    color: yellow;
+}
+.right{
+    text-transform: uppercase;
+    background-color: black;
+    display: flex;
+    justify-content: right;  
+}
+.four{
+    display: flex;
+    justify-content: right;
 }
 .img1{
     width: 100px;
 }
-.img2{
-    width: 800px;
-    height: 500px;
-    align-items: end;
-}
-.one,.two,.three{
-    text-transform: uppercase;
-    color: rgb(244, 235, 235);
-    background-color: black;
-    width: 250px;
-    height: 80px; 
-}
-.four{
-    background-color: black;
+a{
+    width: 80px;
+    height: 20px;
     color: white;
-    justify-content: right;
+    background-color: black;
 }
-option:hover{
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.texts{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: white;
+    padding: 80px 50px;
+}
+.texts{
+    max-width: 600px;
+}
+.texts h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.texts h2{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.texts p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    display: inline;
+    color: white;
+}
+.demo{
+    background-color: yellow;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: medium;
+    display: block;
+    margin-top: 50px;
+}
+.demo:hover{
+    background-color: black;
     color: yellow;
 }
-a{
-    width: 200px;
-    height: 80px;
-    color: white;
-    background-color: black;
+.mobile{
+    text-align: end;
+    display: flex;
+    justify-content: right;
+   
 }
-h4{
-    text-align: left;
+.img2{
+    width: 300px;
+    height: 600px; 
+}
+.secondpage{
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.secondpage h2{
+    text-align: center;
+    color: black;
     text-transform: uppercase;
-    text-decoration: solid;
+    font-size: xx-large;
+}
+.secondpage h3{
+    text-align: center;
+    display: inline;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 80px;
+}
+.thirdpage{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 4;
+}
+.thirdpage h2,h5{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.esportsimg{
+    width: 80px;
+    height: 80px;
+}
+
+.cards1{
+border: 1px solid white;
+width: 400px;
+height: 400px;
+background-color: white;
+/* margin-left: 10px; */
+margin-top: 60px;
+
+}
+.cards1 h4,p{
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: justify;
+}
+.cards1 button{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.cards1 h4{
+    text-align: center;
+}
+.riskimg{
+     width: 80px;
+    height: 80px;
+}
+.cards2{
+border: 1px solid white;
+width: 400px;
+height: 400px;
+background-color: white;
+/* margin-left: 10px; */
+margin-top: 60px;
+}
+.cards2 h4,p{
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: justify;
+}
+.cards2 button{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.cards2 h4{
+    text-align: center;
 }
