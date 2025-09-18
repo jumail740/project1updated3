@@ -415,7 +415,7 @@ margin-top: 60px;
     width: 100%;
     height: 100%;
 }
- .cards{
+ .cards-8{
     padding-top: 30px;
     display: inline;
     border: 1px solid rgb(255, 255, 255);
@@ -423,11 +423,136 @@ margin-top: 60px;
     height: 500px;
     
 }
-.cards h4{
+.cards-8 h4{
 font-weight: bolder;
 font-size: x-large;
 }
-.cards p{
+.cards-8 p{
 font-size: x-large;
 padding-right: 50px;
+}
+
+.nineth{
+    background-image: url(./Esports\ coverage.webp);
+    width: 100%;
+    height: 100%;
+}
+.nineth h1{
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+}
+.img-9{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img-9 img{
+    width: 150px;
+    height: 150px;
+}
+.cards-10 img{
+   width: 80px;
+   height: 80px;
+   padding-left: 30px;
+}
+.tenth{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 20px;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+}
+.cards-10 h5{
+    padding-right: 230px;
+}
+.latest{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;;
+}
+.eleventh{
+    display: flex;
+}
+.eleventh img{
+    width: 850px;
+    height: 500px;
+}
+.para1-11{
+    color: rgb(149, 149, 0);
+    padding-left: 30px;
+    text-transform: uppercase;
+    display: inline;
+}
+.para2-11{
+    text-align: right;
+    padding-left: 550px;
+    display: inline;
+}
+.para3-11{
+    padding-top: 30px;
+    padding-left: 50px;
+    /* padding-right: 30px; */
+    font-size: 28px;
+    font-weight: bold;
+}
+.para4-11{
+    padding-left: 50px;
+    font-size: 28px;
+    font-weight: lighter;
+}
+.butt-11{
+    padding-top: 150px;
+    text-align: left;
+    padding-left: 50px;
+}
+.eleventh button{
+    text-transform: uppercase;
+    color: black;
+    background-color: rgb(210, 210, 210);
+    width: 200px;
+    height: 60px;
+}
+.eleventh button:hover{
+    background-color: white;
+}
+.cards12 img{
+    padding-top: 80px;
+    width: 500px;
+    height: 300px;
+}
+.twelve{
+    display: flex;
+    justify-content: space-between;
+}
+.thirteen{
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 30px; */
+}
+.para1-13{
+    color: rgb(149, 149, 0);
+    display: inline;
+}
+.para2-13{
+    display: inline;
+    padding-left: 200px;
+}
+.para3-13{
+    font-size: 25px;
+    font-weight: bold;
+}
+.para4-13{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.cards13-2{
+    padding-left: 90px;
+}
+.cards13-3{
+    padding-left: 100px;
 }
